@@ -1,0 +1,7 @@
+interface:
+  display_name: "中学班主任通知"
+  short_description: "按班主任口吻生成学生或家长可直接发送的通知"
+  default_prompt: "使用 $middle-school-homeroom-notice，先让我选择通知对象，再根据初步要求补充关键信息并生成可直接发送的通知。"
+
+policy:
+  allow_implicit_invocation: true
